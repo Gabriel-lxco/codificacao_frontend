@@ -1,0 +1,20 @@
+#h1{
+    text-align: center;
+}
+
+#conteiner{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#head_table{
+    font-size: 25px;
+    text-align: center;
+}
+
+.nnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
