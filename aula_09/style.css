@@ -1,0 +1,15 @@
+div{
+    background-color: crimson;
+}
+.um{
+    background-color:green;
+}
+.tres{
+    background-color: rgb(168, 168, 168);
+}
+body{
+    height: 1500px;
+    width: 2000px;
+    background-image: url("img\ -\ bg.jpg");
+    background-repeat: round;
+}

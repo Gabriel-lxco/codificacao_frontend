@@ -16,3 +16,13 @@ body {
     flex-direction: row;
     font-family: "Playfair Display", serif;
 }
+.tabela{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.titarc{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
