@@ -1,0 +1,27 @@
+.imagem{
+    width: 100%;
+}
+.conteiner-02{
+    background-color: gray;
+    font-size: 40px;
+}
+.bio{
+    margin-left: 30px;
+}
+.camp{
+    margin-left: 30px;
+}
+.cont{
+    margin-left: 30px;
+}
+body{
+    background-color: black;
+}
+.conteiner-03{
+    color: white;
+}
+.conteiner-04{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
