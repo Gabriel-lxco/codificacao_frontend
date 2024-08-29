@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.imagem{
+    width: 100%;
+}
+
+.navbar{
+    background-color: #739a9c;
+    padding: 10px; /* Aumenta o tamanho interno da caixa */
+}
+.navbar ul{
+    display: flex;
+    margin: 0;
+}
+.link{
+    margin-right: 40px;
+    list-style: none; /* Tira estilo da lista */
+    text-transform: uppercase; /* Deixa letra maiúscula */
+}
+a{
+    color: #ffff;
+    font-weight: bold; /* Muda a fonte para negrito*/
+    cursor: pointer; /* Faz o cursor virar ponteiro no objeto(cria a mãozinha ao passar o mouse no link) */
+    text-decoration: none; /* Retira todos os estilos do link */
+}
+h1, p, footer{
+    color: #ffff;
+}
+.sobre{
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+footer{
+    text-align: center;
+}
