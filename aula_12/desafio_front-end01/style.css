@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+}
+
+.conteiner{
+    background-color: #fff;
+    width: 700px;
+    display: flex;
+}
+
+.imagem{
+    height: 500px;
+}
+
+.nome-produto{
+    margin-left: 20px;
+}
+
+.nome-perfume{
+    margin-left: 20px;
+}
+
+p{
+    display: block;
+}
