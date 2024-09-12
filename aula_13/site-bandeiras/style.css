@@ -1,0 +1,208 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alagoas{
+    display: flex;
+}
+
+.alagoas01{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+}
+
+.alagoas02{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    background-image: url(./images/brasao-alagoas.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.alagoas03{
+    width: 200px;
+    height: 400px;
+    background-color: blue;
+}
+
+.franca{
+    display: flex;
+}
+
+.franca01{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+}
+
+.franca02{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.franca03{
+    width: 200px;
+    height: 400px;
+    background-color: blue;
+}
+
+.italia{
+    display: flex;
+}
+
+.italia01{
+    width: 200px;
+    height: 400px;
+    background-color: green;
+}
+
+.italia02{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.italia03{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+}
+
+.alemanha{
+    display: block;
+}
+
+.alemanha01{
+    width: 600px;
+    height: 150px;
+    background-color: black;
+}
+
+.alemanha02{
+    width: 600px;
+    height: 150px;
+    background-color: red;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.alemanha03{
+    width: 600px;
+    height: 150px;
+    background-color: yellow;
+}
+
+.argentina{
+    display: block;
+}
+
+.argentina01{
+    width: 600px;
+    height: 150px;
+    background-color: #75AADB;
+}
+
+.argentina02{
+    width: 600px;
+    height: 150px;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./images/brasao-argentina.png);
+}
+
+.argentina03{
+    width: 600px;
+    height: 150px;
+    background-color: #75AADB;
+}
+
+.nigeria{
+    display: flex;
+}
+
+.nigeria01{
+    width: 200px;
+    height: 400px;
+    background-color: #1B7339;
+}
+
+.nigeria02{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nigeria03{
+    width: 200px;
+    height: 400px;
+    background-color: #1B7339;
+}
+
+.holanda{
+    display: block;
+}
+
+.holanda01{
+    width: 600px;
+    height: 150px;
+    background-color: red;
+}
+
+.holanda02{
+    width: 600px;
+    height: 150px;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.holanda03{
+    width: 600px;
+    height: 150px;
+    background-color: blue;
+}
+
+.austria{
+    display: block;
+}
+
+.austria01{
+    width: 600px;
+    height: 150px;
+    background-color: red;
+}
+
+.austria02{
+    width: 600px;
+    height: 150px;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./images/brasao-austria.png);
+}
+
+.austria03{
+    width: 600px;
+    height: 150px;
+    background-color: red;
+}
