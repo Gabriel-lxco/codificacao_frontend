@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(211, 211, 211);
+}
+
+.h11{
+    text-align: center;
+}
+
+.h12{
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+}
+
+.faixa1{
+    height: 5px;
+    background-color: crimson;
+}
+
+.h3card1{
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.text-card1{
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.card1{
+    background-color: #fff;
+    height: 400px;
+}
