@@ -35,7 +35,7 @@
     padding: 30px;
     border-top: 5px solid var(--Cyan);
     position: relative;
-    left: 375px;
+    left: 450px;
     top: 200px;
 }
 
@@ -62,7 +62,7 @@
     padding: 30px;
     border-top: 5px solid var(--Red);
     position: relative;
-    left: 410px;
+    left: 475px;
     top: 50px;
 }
 
@@ -74,7 +74,7 @@
     padding: 30px;
     border-top: 5px solid var(--Orange);
     position: relative;
-    left: 45px;
+    left: 110px;
     top: 350px;
 }
 
@@ -86,6 +86,6 @@
     padding: 30px;
     border-top: 5px solid var(--Blue);
     position: relative;
-    left: 80px;
+    left: 140px;
     top: 200px;
 }
