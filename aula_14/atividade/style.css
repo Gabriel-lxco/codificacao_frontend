@@ -1,0 +1,45 @@
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey7: hsl(0, 0%, 20%);
+    --Grey8: hsl(0, 0%, 12%);
+    --Grey9: hsl(0, 0%, 8%);
+}
+
+*{
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--Grey9);
+}
+
+.card {
+    height: 800px;
+    width: 500px;
+    background-color: var(--Grey7);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.foto-perfil{
+    border-radius: 100%;
+    width: 150px;
+}
+
+.nome{
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+.localizacao{
+    padding-bottom: 40px;
+}

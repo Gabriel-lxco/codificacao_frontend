@@ -1,0 +1,22 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: blue;
+    text-decoration: none; /* Tira todas as caracteristicas padroes do link */
+}
+
+a:visited{
+    color: red;
+}/* Quando o link já foi visitado ele fica na cor vermelha */
+
+a:hover{
+    background-color: black;
+    color: white;
+}/*  Quando o cursor entá em cima do link a linha reage nas cores correspondentes */
+
+a:active{
+    background-color: green;
+}/* Quando o link recebe um click reage na cor verde */
