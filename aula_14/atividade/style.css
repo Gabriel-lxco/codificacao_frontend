@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root{
     --Green: hsl(75, 94%, 57%);
     --White: hsl(0, 0%, 100%);
@@ -8,6 +10,7 @@
 
 *{
     margin: 0;
+    font-family: "Inter", sans-serif;
 }
 
 body {
@@ -20,26 +23,64 @@ body {
 }
 
 .card {
+    border-radius: 10px;
     height: 800px;
     width: 500px;
-    background-color: var(--Grey7);
+    background-color: var(--Grey8);
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
 .foto-perfil{
+    margin: 10px 0;
+    padding: 10px 20px;
     border-radius: 100%;
     width: 150px;
 }
 
 .nome{
-    padding-top: 40px;
+    padding-top: 5px;
     padding-bottom: 5px;
+    font-size: 30px;
+    color: var(--White);
 }
 
 .localizacao{
     padding-bottom: 40px;
+    margin: 0 10px;
+    color: var(--Green);
+}
+
+.descricao{
+    color: var(--White);
+}
+
+.button{
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 20px;
+    background-color: var(--Grey7);
+}
+
+a{
+    text-decoration: none;
+    color: var(--White);
+}
+
+a:active{
+    background-color: var(--Green);
+    display: flex;
+    width: 400px;
+    margin-top: 10px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
