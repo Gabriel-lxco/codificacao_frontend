@@ -1,20 +1,20 @@
-body{
+body {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.alagoas{
+  }
+  
+  .alagoas {
     display: flex;
-}
-
-.alagoas01{
+  }
+  
+  .alagoas01 {
     width: 200px;
     height: 400px;
     background-color: red;
-}
-
-.alagoas02{
+  }
+  
+  .alagoas02 {
     width: 200px;
     height: 400px;
     background-color: white;
@@ -22,100 +22,100 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.alagoas03{
+  }
+  
+  .alagoas03 {
     width: 200px;
     height: 400px;
     background-color: blue;
-}
-
-.franca{
+  }
+  
+  .franca {
     display: flex;
-}
-
-.franca01{
+  }
+  
+  .franca01 {
     width: 200px;
     height: 400px;
     background-color: red;
-}
-
-.franca02{
+  }
+  
+  .franca02 {
     width: 200px;
     height: 400px;
     background-color: white;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.franca03{
+  }
+  
+  .franca03 {
     width: 200px;
     height: 400px;
     background-color: blue;
-}
-
-.italia{
+  }
+  
+  .italia {
     display: flex;
-}
-
-.italia01{
+  }
+  
+  .italia01 {
     width: 200px;
     height: 400px;
     background-color: green;
-}
-
-.italia02{
+  }
+  
+  .italia02 {
     width: 200px;
     height: 400px;
     background-color: white;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.italia03{
+  }
+  
+  .italia03 {
     width: 200px;
     height: 400px;
     background-color: red;
-}
-
-.alemanha{
+  }
+  
+  .alemanha {
     display: block;
-}
-
-.alemanha01{
+  }
+  
+  .alemanha01 {
     width: 600px;
     height: 150px;
     background-color: black;
-}
-
-.alemanha02{
+  }
+  
+  .alemanha02 {
     width: 600px;
     height: 150px;
     background-color: red;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.alemanha03{
+  }
+  
+  .alemanha03 {
     width: 600px;
     height: 150px;
     background-color: yellow;
-}
-
-.argentina{
+  }
+  
+  .argentina {
     display: block;
-}
-
-.argentina01{
+  }
+  
+  .argentina01 {
     width: 600px;
     height: 150px;
-    background-color: #75AADB;
-}
-
-.argentina02{
+    background-color: #75aadb;
+  }
+  
+  .argentina02 {
     width: 600px;
     height: 150px;
     background-color: white;
@@ -123,75 +123,75 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(./images/brasao-argentina.png);
-}
-
-.argentina03{
+  }
+  
+  .argentina03 {
     width: 600px;
     height: 150px;
-    background-color: #75AADB;
-}
-
-.nigeria{
+    background-color: #75aadb;
+  }
+  
+  .nigeria {
     display: flex;
-}
-
-.nigeria01{
+  }
+  
+  .nigeria01 {
     width: 200px;
     height: 400px;
-    background-color: #1B7339;
-}
-
-.nigeria02{
+    background-color: #1b7339;
+  }
+  
+  .nigeria02 {
     width: 200px;
     height: 400px;
     background-color: white;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.nigeria03{
+  }
+  
+  .nigeria03 {
     width: 200px;
     height: 400px;
-    background-color: #1B7339;
-}
-
-.holanda{
+    background-color: #1b7339;
+  }
+  
+  .holanda {
     display: block;
-}
-
-.holanda01{
+  }
+  
+  .holanda01 {
     width: 600px;
     height: 150px;
     background-color: red;
-}
-
-.holanda02{
+  }
+  
+  .holanda02 {
     width: 600px;
     height: 150px;
     background-color: white;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.holanda03{
+  }
+  
+  .holanda03 {
     width: 600px;
     height: 150px;
     background-color: blue;
-}
-
-.austria{
+  }
+  
+  .austria {
     display: block;
-}
-
-.austria01{
+  }
+  
+  .austria01 {
     width: 600px;
     height: 150px;
     background-color: red;
-}
-
-.austria02{
+  }
+  
+  .austria02 {
     width: 600px;
     height: 150px;
     background-color: white;
@@ -199,10 +199,199 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(./images/brasao-austria.png);
-}
-
-.austria03{
+  }
+  
+  .austria03 {
     width: 600px;
     height: 150px;
     background-color: red;
-}
+  }
+  
+  .suecia {
+    display: block;
+  }
+  
+  .suecia01 {
+    width: 600px;
+    height: 450px;
+    background-color: #006aa7;
+    position: relative;
+  }
+  
+  .suecia02 {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 450px;
+    background-color: #fecc02;
+    position: relative;
+    bottom: 450px;
+    left: 200px;
+  }
+  
+  .suecia03 {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 50px;
+    background-color: #fecc02;
+    position: relative;
+    bottom: 700px;
+    left: 0px;
+  }
+  
+  .dinamarca {
+    display: block;
+  }
+  
+  .dinamarca01 {
+    width: 600px;
+    height: 450px;
+    background-color: #c8102e;
+    position: relative;
+  }
+  
+  .dinamarca02 {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 450px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 450px;
+    left: 200px;
+  }
+  
+  .dinamarca03 {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 50px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 700px;
+    left: 0px;
+  }
+  
+  .noruega {
+    display: block;
+  }
+  
+  .noruega01 {
+    width: 600px;
+    height: 450px;
+    background-color: #ba0c2f;
+    position: relative;
+  }
+  
+  .noruega02 {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 450px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 450px;
+    left: 200px;
+  }
+  
+  .noruega03 {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 70px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 700px;
+    left: 0px;
+  }
+  
+  .noruega04 {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 450px;
+    background-color: #00205b;
+    position: relative;
+    bottom: 970px;
+    left: 210px;
+  }
+  
+  .noruega05 {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 50px;
+    background-color: #00205b;
+    position: relative;
+    bottom: 1210px;
+    left: 0px;
+  }
+  
+  .finlandia {
+    display: block;
+  }
+  
+  .finlandia01 {
+    width: 600px;
+    height: 450px;
+    background-color: rgb(205, 204, 204);
+    position: relative;
+  }
+  
+  .finlandia02 {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 450px;
+    background-color: #002f6c;
+    position: relative;
+    bottom: 450px;
+    left: 200px;
+  }
+  
+  .finlandia03 {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 80px;
+    background-color: #002f6c;
+    position: relative;
+    bottom: 700px;
+    left: 0px;
+  }
+  
+  .japao {
+    display: block;
+  }
+  
+  .japao01 {
+    width: 600px;
+    height: 450px;
+    background-color: rgb(205, 204, 204);
+    position: relative;
+  }
+  
+  .japao02 {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    background-color: #bc002d;
+    position: relative;
+    bottom: 285px;
+    left: 250px;
+    border-radius: 100%;
+  }
