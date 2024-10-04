@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Stone100: hsl(30, 54%, 90%);
+  --Stone150: hsl(30, 18%, 87%);
+  --Stone600: hsl(30, 10%, 34%);
+  --Stone900: hsl(24, 5%, 18%);
+  --Brown800: hsl(14, 45%, 36%);
+  --Rose800: hsl(332, 51%, 32%);
+  --Rose50: hsl(330, 100%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 25px;
+  background-color: var(--Stone100);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  padding: 10px;
+  color: var(--Stone900);
+  font-family: "Young Serif", serif;
+}
+
+h2 {
+  padding: 10px;
+  color: var(--Brown800);
+  font-family: "Young Serif", serif;
+}
+
+h3 {
+  padding: 15px;
+  font-weight: bold;
+  color: var(--Rose800);
+  font-family: "Outfit", sans-serif;
+}
+
+h4 {
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+hr {
+  margin: 20px;
+}
+
+p {
+  padding: 10px;
+  font-size: 16px;
+  color: var(--Stone600);
+  font-family: "Outfit", sans-serif;
+}
+
+ul {
+  padding-left: 45px;
+}
+
+ol {
+  padding-left: 45px;
+}
+
+li {
+  padding: 5px;
+  position: relative;
+  color: var(--Stone600);
+  font-family: "Outfit", sans-serif;
+}
+
+li::marker {
+  color: var(--Brown800);
+  font-weight: bold;
+}
+
+.preparation-li::marker {
+  color: var(--Rose800);
+}
+
+.imagem {
+  width: 550px;
+  height: 300px;
+  padding: 10px;
+  margin-left: 15px;
+  border-radius: 32px;
+}
+
+.conteiner {
+  width: 600px;
+  height: 1500px;
+  padding: 20px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--White);
+}
+
+.preparation {
+  width: 550px;
+  height: 150px;
+  margin: 23px;
+  border-radius: 16px;
+  background-color: var(--Rose50);
+}
+
+.nutrition {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 550px;
+  margin-bottom: 20px;
+}
+
+.nutrition p {
+  width: 45%;
+  margin: 0;
+  padding: 10px;
+}
+
+.quantidade {
+  color: var(--Brown800);
+  font-weight: bold;
+}
