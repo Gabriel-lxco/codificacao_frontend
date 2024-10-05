@@ -1,0 +1,43 @@
+html {
+  font-size: 48px;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  background-color: aqua;
+  padding: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: purple;
+  }
+
+  .paragrafo {
+    color: purple;
+  }
+}
+
+.conteiner {
+  font-size: 30px;
+}
+
+.paragrafo {
+  font-size: 0.5em;
+}
+
+.paragrafo-2 {
+  font-size: 2em;
+}
