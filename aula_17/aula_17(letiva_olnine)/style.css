@@ -51,6 +51,7 @@ body {
 @media (max-width: 600px) {
   body {
     flex-direction: column;
+    height: 250vh;
   }
   .conteiner-sedans {
     border-top-left-radius: 8px;
