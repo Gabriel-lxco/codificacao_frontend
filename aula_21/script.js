@@ -8,13 +8,46 @@ function Cadastrar() {
 
     const nomePropioValue = nomePropio.value
     const apelidoValue = apelido.value
-    const nascimentValue = nascimento.value
-    const generovallue = genero.value
+    const nascimentoValue = nascimento.value
+    const generoValue = genero.value
     const emailValue = email.value
-    const senhavalue = senha.value
+    const senhaValue = senha.value
 
     if(nomePropioValue === ""){
-        nomePropio.style.borderColor = "red"
+        nomePropio.classList.add("erro")
         return
+    }else{
+        nomePropioValue.classList.remove("erro")
     }
+
+    if (apelidoValue === "") {
+        apelido.classList.add("erro")
+    } else {
+        apelidoValue.classList.remove("erro")
+    }
+
+    if (nascimentoValue === "") {
+        nascimento.classList.add("erro")
+    } else {
+        apelidoValue.classList.add("erro")
+    }
+
+    if (generoValue === "") {
+        genero.classList.add("erro")
+    } else {
+        generoValue.classList.remove("erro")
+    }
+
+    if (emailValue === "") {
+        email.classList.add("erro")
+    } else {
+        emailValue.classList.remove("erro")
+    }
+
+    if (senhaValue === "") {
+        senha.classList.add("erro")
+    } else {
+        senhaValue.classList.remove("erro")
+    }
+    
 }

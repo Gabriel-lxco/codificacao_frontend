@@ -1,0 +1,43 @@
+:root{
+    --Green200: hsl(148, 38%, 91%);
+    --Green600: hsl(169, 82%, 27%);
+    --Red:hsl(0, 66%, 54%);
+    --White:hsl(0, 0%, 100%);
+    --Grey500: hsl(186, 15%, 59%);
+    --Grey900: hsl(187, 24%, 22%);
+}
+
+body{
+    background-color: var(--Green200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.conteiner{
+    background-color: var(--White);
+    width: 700px;
+    height: 700px;
+    border-radius: 8px;
+}
+
+.formulario{
+    margin: 10px;
+}
+
+input{
+    padding: 15px;
+    margin: 10px;
+}
+
+.erro{
+    border-color: red;
+}
+
+.btn{
+    background-color: var(--Green600);
+    color: var(--White);
+}

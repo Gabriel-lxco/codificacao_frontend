@@ -20,3 +20,7 @@ body{
 button{
     margin: 20px 0;
 }
+
+.erro{
+    border-color: red;
+}

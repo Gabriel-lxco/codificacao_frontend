@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula 22</title>
+</head>
+<body>
+    
+    <div class="conteiner">
+        <h1>Contact Us</h1>
+
+        <form class="formulario">
+            <label for="firstName">First Name</label>
+            <input id="firstName" type="text">
+
+            <label for="lastName">Laste Name</label>
+            <input id="lastName" type="text">
+
+            <label for="email">Email Address</label>
+            <input id="email" type="text">
+
+            <label for="queryType"></label>
+
+            <input id="generalEnquiry" type="radio">
+            <label for="generalEnquiry">General Enquiry</label>
+
+            <input id="supportRequest" type="radio">
+            <label for="supportRequest">Support Request</label>
+
+            <label for="message">Message</label>
+            <input id="message" type="text">
+
+            <input id="checkbox" type="checkbox">
+            <label for="checkbox">I consent to being contacted by the team</label>
+
+            <button class="btn" type="button" onclick="contactUs()">Submit</button>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
