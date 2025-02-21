@@ -1,43 +1,127 @@
-:root{
-    --Green200: hsl(148, 38%, 91%);
-    --Green600: hsl(169, 82%, 27%);
-    --Red:hsl(0, 66%, 54%);
-    --White:hsl(0, 0%, 100%);
-    --Grey500: hsl(186, 15%, 59%);
-    --Grey900: hsl(187, 24%, 22%);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: var(--Green200);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    flex-direction: column;
+:root {
+  --Green200: hsl(148, 38%, 91%);
+  --Green600: hsl(169, 82%, 27%);
+  --Green700: hsl(169, 78%, 18%);
+  --Red: hsl(0, 66%, 54%);
+  --White: hsl(0, 0%, 100%);
+  --Grey500: hsl(186, 15%, 59%);
+  --Grey900: hsl(187, 24%, 22%);
 }
 
-.conteiner{
-    background-color: var(--White);
-    width: 700px;
-    height: 700px;
-    border-radius: 8px;
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--Green200);
 }
 
-.formulario{
-    margin: 10px;
+h1 {
+  margin-bottom: 1.5rem;
 }
 
-input{
-    padding: 15px;
-    margin: 10px;
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--White);
+  padding: 2.5rem;
+  border-radius: 12px;
 }
 
-.erro{
-    border-color: red;
+form {
+  display: flex;
+  flex-direction: column;
 }
 
-.btn{
-    background-color: var(--Green600);
-    color: var(--White);
+span {
+  display: flex;
+}
+
+.box-name {
+  display: flex;
+  flex-direction: column;
+}
+
+#firstName {
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.box-querytype {
+  margin-right: 1.5rem;
+  padding: 10px;
+  border: black solid 1px;
+}
+
+#box-querytype-left {
+  margin-right: 1.5rem;
+}
+
+#query-type {
+  margin-top: 1.5rem;
+}
+
+#name-message {
+  margin-top: 1.5rem;
+}
+
+textarea {
+  min-height: 78px;
+  max-height: 78px;
+  min-width: 475px;
+  max-width: 475px;
+  border-radius: 8px;
+}
+
+.span-checkbox {
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+#checkbox {
+  margin-right: 15px;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: var(--Green600);
+  border: 0;
+  color: var(--White);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--Green700);
+}
+
+#firstName,
+#lastName {
+  padding: 10px;
+  width: 14rem;
+  border-radius: 8px;
+}
+
+#email {
+  padding: 10px;
+  max-width: 475px;
+  border-radius: 8px;
+}
+
+.box-querytype {
+  padding: 10px;
+  width: 14rem;
+  border-radius: 8px;
+}
+
+.erro {
+  border: 2px solid var(--Red);
 }

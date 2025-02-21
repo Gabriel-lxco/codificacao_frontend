@@ -1,46 +1,106 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Aula 22</title>
-</head>
-<body>
-    
-    <div class="conteiner">
-        <h1>Contact Us</h1>
-
-        <form class="formulario">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contac Us</title>
+  </head>
+  <body>
+    <main>
+      <h1>Contact Us</h1>
+      <form class="formulario">
+        <span>
+          <div class="box-name">
             <label for="firstName">First Name</label>
-            <input id="firstName" type="text">
-
-            <label for="lastName">Laste Name</label>
-            <input id="lastName" type="text">
-
-            <label for="email">Email Address</label>
-            <input id="email" type="text">
-
-            <label for="queryType"></label>
-
-            <input id="generalEnquiry" type="radio">
+            <input id="firstName" type="text" />
+          </div>
+          <div class="box-name">
+            <label for="lastName">Last Name</label>
+            <input id="lastName" type="text" />
+          </div>
+        </span>
+        <label for="email">Email Address</label>
+        <input id="email" type="email" />
+        <label for="queryType" id="query-type">Query type</label>
+        <span>
+          <div class="box-querytype">
+            <input id="general-enquiry" type="radio" />
             <label for="generalEnquiry">General Enquiry</label>
-
-            <input id="supportRequest" type="radio">
+          </div>
+          <div class="box-querytype">
+            <input id="support-request" type="radio" />
             <label for="supportRequest">Support Request</label>
+          </div>
+        </span>
+        <label for="message" id="name-message">Message</label>
+        <textarea name="message" id="message"></textarea>
 
-            <label for="message">Message</label>
-            <input id="message" type="text">
+        <span class="span-checkbox">
+          <input id="checkbox" type="checkbox" />
+          <label for="checkbox">I consent to being contacted by the team</label>
+        </span>
 
-            <input id="checkbox" type="checkbox">
-            <label for="checkbox">I consent to being contacted by the team</label>
+        <button class="btn" type="button" onclick="contactUs()">Submit</button>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
 
-            <button class="btn" type="button" onclick="contactUs()">Submit</button>
+<!-- <!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Aula 22</title>
+  </head>
+  <body>
+    <div class="conteiner">
+      <h1>Contact Us</h1>
 
-        </form>
+      <form class="formulario">
+        <span class="span">
+          <div class="name">
+            <label for="firstName">First Name</label>
+            <input id="firstName" type="text" />
+          </div>
+
+          <div class="name">
+            <label for="lastName">Laste Name</label>
+            <input id="lastName" type="text" />
+          </div>
+        </span>
+
+        <label for="email">Email Address</label>
+        <input id="email" type="text" />
+
+        <label for="queryType"></label>
+
+        <input id="generalEnquiry" type="radio" />
+        <label for="generalEnquiry">General Enquiry</label>
+
+        <input id="supportRequest" type="radio" />
+        <label for="supportRequest">Support Request</label>
+
+        <label for="message">Message</label>
+        <input id="message" type="text" />
+
+        <input id="checkbox" type="checkbox" />
+        <label for="checkbox">I consent to being contacted by the team</label>
+
+        <button class="btn" type="button" onclick="contactUs()">Submit</button>
+      </form>
     </div>
 
     <script src="script.js"></script>
-</body>
-</html>
+  </body>
+</html> -->
